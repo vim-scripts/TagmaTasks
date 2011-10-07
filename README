@@ -1,0 +1,23 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3765
+
+Displays tasks for the current buffer using the Vim location-list window.
+Based on the task lists from other IDEs. Will also display marks next to each
+task line using the Vim signs feature.
+
+The Task List is generated using the lvimgrep command. See that command for
+specifics on how the Task List is generated
+
+User Commands:
+    :TagmaTasks - Generate the Task List. Several options control behavior.
+    :TagmaTaskMarks - Display the Task Marks.
+    :TagmaTaskClear - Clear the Task Marks.
+    :TagmaTaskToggle - Toggle the Task Window.
+
+
+Key Mappings:
+    <Leader>tt - Calls :TagmaTasks
+    <Leader>tc - Calls :TagmaTaskClear 
+    <Leader>tm - Calls :TagmaTaskMarks 
+    <Leader>tw - Calls :TagmaTaskToggle 
+
+See the documentation for more details.
