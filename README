@@ -4,6 +4,8 @@ Displays tasks for the current buffer using the Vim location-list window.
 Based on the task lists from other IDEs. Will also display marks next to each
 task line using the Vim signs feature.
 
+GutHub Home: https://github.com/LStinson/TagmaTasks
+
 The Task List is generated using the lvimgrep command. See that command for
 specifics on how the Task List is generated
 
@@ -21,3 +23,6 @@ Key Mappings:
     <Leader>tw - Calls :TagmaTaskToggle 
 
 See the documentation for more details.
+
+I welcome any and all feedback. Please contact me at LoranceStinson AT Gmail....
+Please be sure to put TagmaTasks in the subject so I know what you are emailing about.
